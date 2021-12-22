@@ -1,0 +1,118 @@
+/*scene style : restricted*/
+.root {
+    -fx-background-color: #393351;
+}
+
+/************************************************************/
+/*sortingAlgorithm and arraySize choiceBoxes animations*/
+.sortAlgoChoiceBox {
+    -fx-background-color: #4b4563;
+    -fx-background-radius: 12;
+    -fx-border-color: #ade8f4;
+    -fx-border-radius: 12;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-mark-color: transparent;
+    -fx-focused-mark-color: transparent;
+}
+
+.sortAlgoChoiceBox:hover {
+    -fx-background-color: #615a7b;
+}
+
+.sortAlgoChoiceBox .context-menu {
+    -fx-background-color: #4b4563;
+    -fx-pref-width: 180px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10 10 10 10, 10 10 10 10, 10 10 10 10;
+}
+
+.sortAlgoChoiceBox .menu-item:focused {
+    -fx-background-color: #615a7b;
+}
+
+.sortAlgoChoiceBox .label {
+    -fx-text-fill: white;
+}
+
+.arraySizeChoiceBox {
+    -fx-background-color: #4b4563;
+    -fx-background-radius: 12;
+    -fx-border-color: #ade8f4;
+    -fx-border-radius: 12;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-mark-color: transparent;
+    -fx-focused-mark-color: transparent;
+}
+
+.arraySizeChoiceBox:hover {
+    -fx-background-color: #615a7b;
+}
+
+.arraySizeChoiceBox .context-menu {
+    -fx-background-color: #4b4563;
+    -fx-pref-width: 120px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10 10 10 10, 10 10 10 10, 10 10 10 10;
+}
+
+.arraySizeChoiceBox .menu-item:focused {
+    -fx-background-color: #615a7b;
+}
+
+.arraySizeChoiceBox .label {
+    -fx-text-fill: white;
+}
+
+/************************************************************/
+/*id: sortSpeed (slider)*/
+.slider .thumb {
+    -fx-background-color: #90e0ef;
+}
+
+.slider .track {
+    -fx-background-color: #c19ee0;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: #FFFFFF;
+    -fx-tick-label-font-size: 12px;
+    -fx-tick-label-font-weight: bold;
+    -fx-tick-label-font-family: Consolas;
+}
+
+/************************************************************/
+/*Sort and Randomize buttons animations*/
+.btnRandomize {
+    -fx-background-color: #47425c;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+    -fx-border-color: #ffb3c1;
+    -fx-border-radius: 10;
+}
+
+.btnRandomize:hover {
+    -fx-background-color: #615a7b;
+}
+
+.btnSortMe {
+    -fx-background-color: #47425c;
+    -fx-border-width: 2;
+    -fx-background-radius: 10;
+    -fx-border-color: #ffb3c1;
+    -fx-border-radius: 10;
+}
+
+.btnSortMe:hover {
+    -fx-background-color: #615a7b;
+}
+
+/************************************************************/
+/*Label headings*/
+.labelHeadings {
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+}
+
+/************************************************************/
