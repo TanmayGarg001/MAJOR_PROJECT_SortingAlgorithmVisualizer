@@ -33,14 +33,12 @@ public class InsertionSort extends SortUserInterface {
     @Override
     void swap(int indexOne, int indexTwo) {
         super.swap(indexOne, indexTwo);
-
         currentIndex--;
     }
 
     @Override
     public void initializeData(int size) {
         super.initializeData(size);
-
         this.unsortedIndex = 1;
         this.currentIndex = 1;
     }
