@@ -42,7 +42,7 @@ public class Main extends Application {
         stage.setWidth(1280);
         stage.setHeight(900);
         stage.setResizable(false);
-        stage.setTitle("Sorting Visual Algorithms");
+        stage.setTitle("Sorting Algorithms Visualizer");
         stage.setScene(scene);
         stage.show();
     }
